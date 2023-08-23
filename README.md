@@ -6,6 +6,8 @@ Stream and analyze stock market data using Apache Kafka on AWS EC2, further proc
 
 This project focuses on real-time streaming and analysis of stock market data, including columns such as Index, Date, Open, High, Low, Close, Adjusted Close, and CloseUSD.
 
+![Kafka Project Architecture](Kafka-project-archiecture.jpg)
+
 ## 🛠 Prerequisites
 
 - AWS EC2 instance (with public IPv4).
@@ -43,3 +45,5 @@ Data flow: boto3 -> Producer -> Kafka (EC2) -> Consumer -> S3 -> Crawler -> Glue
 
 ## 📄 Dataset
 The dataset captures real-time stock market metrics, detailing columns like Index, Date, Open, High, Low, Close, Adjusted Close, and CloseUSD.
+
+
